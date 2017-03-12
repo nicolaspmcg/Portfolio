@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Nicolás Peña Mc Gough's Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- link google fonts -->
+
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul id="menu">
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="skills.html">SKILLS</a></li>
+					<li><a href="education.html">EDUCATION</a></li>
+					<li><a href="experience.html">WORK EXPERIENCE</a></li>
+					<li><a href="portfolio.html">PORTFOLIO</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+					<li><span class="ion-navicon-round iconos color-navicon"></span></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section id="about"> <!-- ABOUT -->
+			<article>
+				<div><img src="https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg">
+				</div> <!-- foto -->
+				<div>
+					<h3>Nicolás Peña Mc Gough</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</div>
+			</article>
+			<article>
+				<button type="button">Download CV</button> <!-- botón "download cv"-->
+			</article>
+		</section>
+
+		<section id="skills" class="basic"> <!-- SKILLS -->
+			<h2>SKILLS</h2>
+			<article>
+				<h3>Desarrollo</h3>
+				<ul>
+					<li>HTML 5</li>
+					<li>CSS 3</li>
+				</ul>
+			</article>
+			<article>
+				<h3>Languages</h3>
+				<ul>
+					<li>Español</li>
+					<li>English</li>
+				</ul>
+			</article>
+		</section>
+
+		<section id="education" class="timeline"> <!-- EDUCATION -->
+			<h2>EDUCATION</h2>
+			<div>
+				<article></article>
+				<article></article>
+			</div>
+			<div>
+				<article></article> <!-- foto linea de tiempo -->
+			</div>
+			<div>
+				<article></article>
+				<article></article>
+			</div>
+		</section> 
+
+		<section id="experience" class="timeline"> <!-- WORK EXPERIENCE -->
+			<h2>WORK EXPERIENCE</h2>
+			<div>
+				<article></article>
+				<article></article>
+			</div>
+			<div>
+				<article></article> <!-- foto linea de tiempo -->
+			</div>
+			<div>
+				<article></article>
+				<article></article>
+			</div>
+		</section> 
+
+		<section id="portfolio" class="basic"> <!-- PORTFOLIO -->
+			<h2>PORTFOLIO</h2>
+			<div>
+				<article> <!-- poner link portfolio -->
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</article>
+				<article> <!-- poner link portfolio -->
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</article>
+				<article> <!-- poner link portfolio -->
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</article>
+				<article> <!-- poner link portfolio -->
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact"> <!-- CONTACT -->
+			<h2>CONTACT</h2>
+			<div>
+			<form method="POST" action="formulario.php" enctype="multipart/fomr-data">
+
+			<label for="nombre">Nombre:</label>
+			<input type="text" name="nombre" placeholder="Escribí tu nombre" required>
+			
+			<br/>
+			<br/>
+
+			<label for="correo">Email:</label>
+			<input type="email" name="correo" placeholder="Escribí tu mail" required>
+
+			<br/>
+			<br/>
+
+			<label for="mensaje">Mensaje:</label>
+			<textarea name"mensaje" placeholder="Escribí tu mensaje aquí..." required></textarea>
+
+			<br/>
+			<br/>
+
+			<input type="submit" value="Enviar">
+
+			</form>
+			</div>
+
+		<!--
+		<div id="map">
+			<h4>Direction:</h4>
+			<script>
+		      function initMap() {
+		        var uluru = {lat: -34.5766289, lng: -58.4068024};
+		        var map = new google.maps.Map(document.getElementById('map'), {
+		          zoom: 4,
+		          center: uluru
+		        });
+		        var marker = new google.maps.Marker({
+		          position: uluru,
+		          map: map
+		        });
+		      }
+		    </script>
+		    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+		</div>
+		 -->
+
+		</section>
+		
+		<footer> <!-- TODO: armar footer -->	
+			<ul class="redes">
+				<li>
+					<a href="https://www.linkedin.com/in/nicolaspmcg/">
+					<span class="ion-social-linkedin iconos color-linkedin"></span>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.facebook.com/nicolaspmcg">
+					<span class="ion-social-facebook iconos color-facebook"></span>
+					</a>
+				</li>
+				<li>
+					<a href="https://github.com/nicolaspmcg">
+					<span class="ion-social-github iconos color-github"></span>
+					</a>
+				</li>
+				<li>
+					<h4>nicolaspmcg</h4>
+					<span class="ion-social-skype iconos color-skype"></span>
+					</a>
+				</li>
+				<li>	
+					<a href="tel:+5491162063732">15-6206-3732</a>
+					<span class="ion-ios-telephone iconos color-telephone"></span>
+					</a>
+				</li>
+				<li>
+					<a href="mailto:nicolaspmcg@gmail.com">
+					<span class="ion-email iconos color-email"></span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>
