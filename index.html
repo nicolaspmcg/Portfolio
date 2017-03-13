@@ -6,14 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
-		<!-- link google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway|Roboto:400,500" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 	</head>
 	<body>
 		<header>
-			<nav>
-				<ul id="menu">
+			<nav class="nav">
+				<ul class="menu">
 					<li><a href="about.html">ABOUT</a></li>
 					<li><a href="skills.html">SKILLS</a></li>
 					<li><a href="education.html">EDUCATION</a></li>
@@ -25,9 +25,9 @@
 			</nav>
 		</header>
 
-		<section id="about"> <!-- ABOUT -->
+		<section class="about"> <!-- ABOUT -->
 			<article>
-				<div><img src="https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg">
+				<div><img src="https://image.freepik.com/free-icon/user-male-silhouette_318-55563.jpg" class="mi-foto" height="250" width="250">
 				</div> <!-- foto -->
 				<div>
 					<h3>Nicolás Peña Mc Gough</h3>
@@ -40,25 +40,25 @@
 			</article>
 		</section>
 
-		<section id="skills" class="basic"> <!-- SKILLS -->
+		<section class="skills basic"> <!-- SKILLS -->
 			<h2>SKILLS</h2>
 			<article>
 				<h3>Desarrollo</h3>
-				<ul>
+				<ul class="bullets">
 					<li>HTML 5</li>
 					<li>CSS 3</li>
 				</ul>
 			</article>
 			<article>
 				<h3>Languages</h3>
-				<ul>
+				<ul class="bullets">
 					<li>Español</li>
 					<li>English</li>
 				</ul>
 			</article>
 		</section>
 
-		<section id="education" class="timeline"> <!-- EDUCATION -->
+		<section class="education timeline"> <!-- EDUCATION -->
 			<h2>EDUCATION</h2>
 			<div>
 				<article></article>
@@ -73,7 +73,7 @@
 			</div>
 		</section> 
 
-		<section id="experience" class="timeline"> <!-- WORK EXPERIENCE -->
+		<section class="experience timeline"> <!-- WORK EXPERIENCE -->
 			<h2>WORK EXPERIENCE</h2>
 			<div>
 				<article></article>
@@ -88,62 +88,62 @@
 			</div>
 		</section> 
 
-		<section id="portfolio" class="basic"> <!-- PORTFOLIO -->
+		<section class=" portfolio basic"> <!-- PORTFOLIO -->
 			<h2>PORTFOLIO</h2>
 			<div>
 				<article> <!-- poner link portfolio -->
-					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png" class="port-img" height="150" width="150"></a></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</article>
 				<article> <!-- poner link portfolio -->
-					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png" class="port-img" height="150" width="150"></a></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</article>
 				<article> <!-- poner link portfolio -->
-					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png" class="port-img" height="150" width="150"></a></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</article>
 				<article> <!-- poner link portfolio -->
-					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png"></a></div>
+					<div><a href="home.html"><img src="https://blog.uclm.es/tp-tosm/files/2016/11/portfolio.png" class="port-img" height="150" width="150"></a></div>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
 				</article>
 			</div>
 		</section>
 
-		<section id="contact"> <!-- CONTACT -->
+		<section class="contact"> <!-- CONTACT -->
 			<h2>CONTACT</h2>
 			<div>
 			<form method="POST" action="formulario.php" enctype="multipart/fomr-data">
 
-			<label for="nombre">Nombre:</label>
-			<input type="text" name="nombre" placeholder="Escribí tu nombre" required>
+			<label for="nombre">Name:</label>
+			<input type="text" name="nombre" placeholder="Type your name" required>
 			
 			<br/>
 			<br/>
 
 			<label for="correo">Email:</label>
-			<input type="email" name="correo" placeholder="Escribí tu mail" required>
+			<input type="email" name="correo" placeholder="Type your email" required>
 
 			<br/>
 			<br/>
 
-			<label for="mensaje">Mensaje:</label>
-			<textarea name"mensaje" placeholder="Escribí tu mensaje aquí..." required></textarea>
+			<label for="mensaje">Message:</label>
+			<textarea name"mensaje" placeholder="Type message here..." required></textarea>
 
 			<br/>
 			<br/>
 
-			<input type="submit" value="Enviar">
+			<input type="submit" value="Send">
 
 			</form>
 			</div>
 
 		<!--
-		<div id="map">
+		<div class="map">
 			<h4>Direction:</h4>
 			<script>
 		      function initMap() {
@@ -187,9 +187,7 @@
 					</a>
 				</li>
 				<li>	
-					<a href="tel:+5491162063732">15-6206-3732</a>
-					<span class="ion-ios-telephone iconos color-telephone"></span>
-					</a>
+					<a href="tel:+5491162063732"><span class="ion-ios-telephone iconos color-telephone"></span>15-6206-3732</a>
 				</li>
 				<li>
 					<a href="mailto:nicolaspmcg@gmail.com">

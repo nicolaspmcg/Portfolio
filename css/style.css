@@ -1,6 +1,70 @@
 *{
 	padding: 10px;
 }
+
+nav{
+	background: #242423;
+	color: #F5CB5C;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+menu{
+	color: #F5CB5C;
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+.about{
+	background: #CFDBD5;
+	font-family: 'Roboto', sans-serif;
+	color: #333533;
+}
+h2{
+	color: #333533;
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+}
+h3{
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+}
+.skills{
+	background: #E8EDDF;
+}
+.bullets{
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-style: italic;
+}
+.education{
+	background: #CFDBD5;
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+}
+.experience{
+	background: #E8EDDF;
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+}
+.portfolio{
+	background: #CFDBD5;
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+}
+.contact{
+	background: #E8EDDF;
+	color: #333533;
+	font-family: 'Roboto', sans-serif;
+}
+.redes{
+	background:#242423;
+	color:#F5CB5C;
+	font-size: 20px;
+	font-style: italic;
+}
 .iconos{
 	font-size: 40px;
 }
@@ -11,14 +75,23 @@
 	color: #3b5998;
 }
 .color-github{
-	color: #000000;
+	color: #AAAAAA;
 }
 .color-skype{
 	color: #00aff0;
 }
 .color-telephone{
-	color: #000000;
+	color: #AAAAAA;
 }
 .color-email{
-	color: #999999;
+	color: #AAAAAA;
 }
+.color-navicon{
+	font-size: 15px;
+}
+
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Playfair Display', serif;
+*/
