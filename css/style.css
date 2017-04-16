@@ -257,6 +257,7 @@ li{
 .redes li{
 	margin: 5px;
 	width: 14%;
+	text-align: center;
 }
 
 footer{
@@ -270,3 +271,61 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
 */
+
+@media (max-width: 900px){
+	.about-text{
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid grey;
+	}
+	.about-text-detail{
+	width: 400px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	}
+	.education article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 100px;
+    width: 100%;
+	}
+	.experience article{
+	float: left;
+	margin: 10px 15px 30px 15px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #242423;
+    min-height: 100px;
+    width: 100%;
+	}
+	.portfolio div article{
+	width: 100%;
+	float: left;
+	padding: 10px;
+	}
+	.div-form{
+	float: left;
+	width: 50%;
+	margin: 10px;
+	height: 100px;
+	}
+	.div-form-2{
+	margin-bottom: 60px;
+	}
+	.iconos{
+	font-size: 25px;
+	color: #F5CB5C;
+	}
+	.redes li{
+	margin: 5px;
+	width: 8%;
+	text-align: center;
+	}
+}
